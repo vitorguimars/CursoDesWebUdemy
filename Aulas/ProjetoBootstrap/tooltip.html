@@ -26,15 +26,44 @@
         <h1>Bootstrap - Tooltip & Popover</h1>
    </div>
 
-       <h3>Tooltop</h3>
+       <h3>Tooltip</h3>
 
        <button type="button" class="btn btn-default"
                data-toggle="tooltip" 
-               data-placement="left"
+               data-placement="rigth"
                title="Detalhes do item">Dica</button>
+
+               <br><br>
+
+               <div class="btn-tollbar">
+                 <div class="btn-group">
+                   
+                  <button type="button" class=" btn btn-default"
+                          data-toggle="tooltip" data-placement="bottom" title="tocar">
+                            <span class="glyphicon glyphicon-play"></span>
+                          </button>
+
+                   <button type="button" class=" btn btn-default"
+                          data-toggle="tooltip" data-placement="bottom" title="pausar">
+                            <span class="glyphicon glyphicon-pause"></span>
+                          </button> 
+
+                    <button type="button" class=" btn btn-default"
+                          data-toggle="tooltip" data-placement="bottom" title="parar">
+                            <span class="glyphicon glyphicon-stop"></span>
+                          </button>      
+
+                 </div>
+               </div>
 
        <h3>Popover</h3>
 
+       <button type="button" class="btn btn-lg btn-danger"
+               data-toggle="popover" title="Detalhes!!" 
+               data-content="Lorem ipsu do lorem sit amet!!"
+               data-placement="rigth">
+         Detalhes
+       </button>
    
  </div>
 
@@ -44,6 +73,7 @@
    
   $(function (){
     $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="popover"]').popover()
   })
 
  </script>
