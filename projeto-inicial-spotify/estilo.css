@@ -53,12 +53,13 @@ nav.navbar-transparente{
 
 }
 
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
 	color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover{
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
 	color: #9bf0e1;
+	background: none;
 }
 
 /* -- Imagem de Capa -- */
@@ -141,6 +142,20 @@ nav.navbar-transparente{
 	
 }
 
+/* -- Rodapé-- */
+footer{
+
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+
+}
+
+.item-rede-social{
+
+	float: right;
+}
+
 
 
 /* ####################### Tipografia  fomataçaõ de textos em geral ##################################*/
@@ -165,6 +180,13 @@ h3{
 	
 }
 
+#rodape h4{
+
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
 #servicos h2, #servicos h3{
 	color: #7c25f8;
 }
@@ -174,3 +196,4 @@ h3{
 	color: #9bf0e1;
 
 }
+
