@@ -1,0 +1,6 @@
+Spotify - Escondendo elementos (links úteis)
+
+
+Recursos úteis para esconder conteúdos:
+
+http://getbootstrap.com/css/#responsive-utilities

@@ -9,6 +9,7 @@
 
 html,body, .capa {
 	height: 100%;
+	overflow-y: auto;
 }
 
 body{
@@ -85,8 +86,7 @@ nav.navbar-transparente{
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
 	-moz-border-radius: 500px;
-	padding: 10px 35px;
-	margin: 0px 15px;
+	
 	text-transform: uppercase;
 	transition: 0.4s, color 0.4s;
 	
@@ -161,11 +161,62 @@ footer{
 /* ####################### Tipografia  fomataçaõ de textos em geral ##################################*/
 
 h1{
-	font-size: 100px;
+	
 	font-weight: 900;
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 }
+
+
+/* INICIO MEDIA QUERIES */
+
+/* xs < 768 */
+@media screen and (max-width: 767px){
+
+h1{
+	font-size: 50px;
+}
+
+.btn-custom{
+	margin: 10px 15px;
+}
+
+}
+
+/* sm */
+@media screen and(min-width: 768px){
+
+	h1{
+
+		font-size: 70px;
+
+
+	}
+
+}
+
+
+/* md */
+@media screen and (min-width: 992px){
+
+	h1{
+
+		font-size: 80px;
+
+	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px){
+
+	h1{
+		font-size: 100px;
+	}
+}
+
+/* FIM MEDIA QUERIES */
+
+
 h2{
 	font-size: 50px;
 	font-weight: 700;
