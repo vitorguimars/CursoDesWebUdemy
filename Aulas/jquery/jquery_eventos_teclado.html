@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Jquery eventos - Teclado</title>
+
+
+	
+
+	<!-- jquery -->
+		<script src="jquery-2.2.0.js"></script>
+
+
+
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+
+				//keydown
+				//keypress   ignorando as teclas ESC, ALT,DEL
+				//keyUp
+
+				$('#campo_1').keydown(function(){
+
+					alert('Botão foi pressionado');
+				});
+
+			
+
+
+
+			});
+
+
+
+
+
+
+
+		</script>
+</head>
+<body>
+
+	 <input  id="campo_1" type="text" />
+</body>
+</html>
